@@ -1,25 +1,20 @@
 {
-  "name": "javra/module-javraevents",
+  "name": "javra/javraevents",
   "description": "Javraevents",
-  "homepage": "http://packages.example.org",
-  "license": "GPL-3.0",
+  "require": {
+    "php" : "^5.5 || ^7.0"
+  },
   "type": "magento2-module",
-  "version": "2.1.1",
+  "version": "1.0.0",
+  "license": [
+    "GPL-3.0"
+  ],
   "authors": [
     {
       "name": "javra",
       "email": "at.thapaishwar@gmail.com"
     }
   ],
-//  "repositories": [
-//    { "type": "vcs", "url": "https://github.com/esorthapa/Javraevents" }
-//  ],
-  "require-all": true,
-
-  "minimum-stability": "dev",
-  "require": {
-    "php" : "^5.5 || ^7.0"
-  },
   "autoload": {
     "files": [
       "registration.php"
