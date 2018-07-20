@@ -24,5 +24,11 @@
     "psr-4": {
       "Javra\\Javraevents\\": ""
     }
+  },
+  "extra": {
+    "magento-force": "override",
+    "installer-paths": {
+      "app/code/Javra": ["vendor/module"]
+    }
   }
 }
