@@ -11,9 +11,9 @@
       "email": "at.thapaishwar@gmail.com"
     }
   ],
-  "repositories": [
-    { "type": "vcs", "url": "https://github.com/esorthapa/Javraevents" }
-  ],
+//  "repositories": [
+//    { "type": "vcs", "url": "https://github.com/esorthapa/Javraevents" }
+//  ],
   "require-all": true,
 
   "minimum-stability": "dev",
