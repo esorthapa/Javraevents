@@ -4,6 +4,7 @@
   "homepage": "http://packages.example.org",
   "license": "GPL-3.0",
   "type": "magento2-module",
+  "version": "2.1.1",
   "authors": [
     {
       "name": "javra",
@@ -11,12 +12,14 @@
     }
   ],
   "repositories": [
-    { "type": "vcs", "url": "https://github.com/esorthapa/Javraevents.git" }
+    { "type": "vcs", "url": "https://github.com/esorthapa/Javraevents" }
   ],
   "require-all": true,
 
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php" : "^5.5 || ^7.0"
+  },
   "autoload": {
     "files": [
       "registration.php"
