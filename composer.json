@@ -1,14 +1,18 @@
 {
   "name": "javra/module-javraevents",
-  "description": "",
+  "description": "Javraevents",
+  "homepage": "http://packages.example.org",
   "license": "GPL-3.0",
+  "type": "magento2-module",
+  "version": "2.1.1",
   "authors": [
     {
-      "name": "javra"
+      "name": "javra",
+      "email": "at.thapaishwar@gmail.com"
     }
   ],
   "repositories": [
-    { "type": "vcs", "url": "http://git.javra.com/ayushdada/MagentoWebshop/tree/catalog" }
+    { "type": "vcs", "url": "https://github.com/esorthapa/Javraevents.git" }
   ],
   "require-all": true,
 
