@@ -22,13 +22,19 @@
       "registration.php"
     ],
     "psr-4": {
-      "Javra\\Javraevents\\": ""
+      "esorthapa\\Javraevents\\": ""
     }
   },
   "extra": {
     "magento-force": "override",
     "installer-paths": {
       "app/code/Javra": ["vendor/module"]
+    }
+  },
+  "repositories": {
+    "esorthapa/Javraevents": {
+      "type": "git",
+      "url": "https://github.com/esorthapa/Javraevents.git"
     }
   }
 }
